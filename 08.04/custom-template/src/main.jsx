@@ -1,7 +1,8 @@
 // import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import MainPage from "@/pages/MainPage";
+import ProfilePages from "./pages/ProfilePages";
+import "@/styles/index.css";
 
 const reactApp = document.getElementById("react-app");
 
-createRoot(reactApp).render(<MainPage />);
+createRoot(reactApp).render(<ProfilePages />);
