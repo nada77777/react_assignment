@@ -6,11 +6,9 @@ const container = document.getElementById('react-app');
 
 if (container) {
   createRoot(container).render(
-    <Game />
-
-    // <StrictMode>
-    //   <Game />
-    // </StrictMode>
+    <StrictMode>
+      <Game />
+    </StrictMode>
   );
 } else {
   console.warn('문서에 "#app" 요소가 존재하지 않습니다.');

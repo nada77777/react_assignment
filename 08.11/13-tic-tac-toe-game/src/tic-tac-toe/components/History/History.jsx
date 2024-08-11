@@ -1,5 +1,5 @@
 function History() {
-  return <div>h</div>;
+  return <div>History</div>;
 }
 
 export default History;
