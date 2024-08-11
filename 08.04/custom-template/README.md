@@ -1,17 +1,15 @@
-# 07/29 Vite를 사용한 학습환경 재구성 과제  
+# 08/04 컴포넌트 속성 검사 및 테스트 과제  
 
 ## 폴더 구조
-![폴더구조](https://github.com/user-attachments/assets/1061661e-06bd-47ca-82aa-e951c08912b5)
+![폴더구조](https://github.com/user-attachments/assets/3c33849f-829c-4cde-b86f-5888135f2443)
 
-## 설치한 패키지 목록
-- vite
-- react, react-dom
-- types/react, types/react-dom, types/node
-- vitejs/react
-- ESLint 
+## 과제 진행 과정
+ProfilePages.jsx 컴포넌트에서 data를 import해서 구조 분해 할당 후  
+자식 컴포넌트 ArrayItem.jsx ObjectItem.jsx StringItem.jsx에 각각 props를 전달했습니다  
+타입 검사를 위한 propTypes의 value?는 @types 폴더로부터 import해서 해당 컴포넌트에서 검사를 진행합니다
+
 
 ## 과제를 진행하며 느낀 점
 
-과제를 진행하면서 스스로 절차를 만들어 계획대로 하나하나 패키지 파일을 설치하고 각각 파일에 필요한 설정을 추가해 보면서   
-수업 시간에 놓친 것이 많구나 생각이 들지만 이런 느낌으로 진행해야 하는구나 가닥이 잡히는 것 같다  
-그냥 주어진 환경을 아무것도 모르고 냅다 쓰는 것보다 알고 사용하는 느낌이 조금은 들어서 만족스럽다
+과제를 진행하며 proptypes 코드 작성이 끝나고 생각지도 못하게 각각 속성검사 코드를 가져와서  
+types.d.js라는 하나의 파일에 정의해서 export해서 사용하는 부분에서 애를 먹었다
